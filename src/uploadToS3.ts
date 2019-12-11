@@ -36,7 +36,8 @@ async function uploadToS3(
       .upload({
         Bucket: bucketName,
         Key: key,
-        Body: fileStream
+        Body: fileStream,
+        StorageClass: bucketProp.storageClass
       })
       .on('httpUploadProgress', p =>
         bus.emit('tick_uploading_current', p.loaded)

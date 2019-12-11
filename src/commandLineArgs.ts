@@ -34,6 +34,11 @@ const optionDefinitions = [
     type: String
   },
   {
+    name: 'storageClass',
+    type: String,
+    defaultValue: 'STANDARD'
+  },
+  {
     name: 'onlyListing',
     type: Boolean,
     defaultValue: false

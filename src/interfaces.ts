@@ -3,6 +3,7 @@ export interface S3BucketProps {
   bucket: string
   accessKeyId: string
   secretAccessKey: string
+  storageClass: string
 }
 
 export interface Args {
@@ -12,5 +13,6 @@ export interface Args {
   bucket: string
   accessKeyId: string
   secretAccessKey: string
+  storageClass: string
   onlyListing: Boolean
 }

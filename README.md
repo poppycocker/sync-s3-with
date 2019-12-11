@@ -35,6 +35,16 @@ npx ts-node src/index.ts -l "path/to/dir/to/sync" -e "" -r "YOUR_REGION" -b "YOU
 - secretAccessKey
   - alias: s
   - your secretAccessKey.
+- storageClass
+  - default value is "STANDARD"
+  - possible values include:
+    - "STANDARD"
+    - "REDUCED_REDUNDANCY"
+    - "STANDARD_IA"
+    - "ONEZONE_IA"
+    - "INTELLIGENT_TIERING"
+    - "GLACIER"
+    - "DEEP_ARCHIVE"
 - onlyListing
   - if specified, does not upload any files. only shows list of files to upload. (diff between local and S3)
   - default value is false
