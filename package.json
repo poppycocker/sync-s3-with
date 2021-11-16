@@ -18,7 +18,7 @@
     "typescript": "^3.6.4"
   },
   "dependencies": {
-    "aws-sdk": "^2.561.0",
+    "aws-sdk": "^2.814.0",
     "cli-progress": "^3.3.1",
     "command-line-args": "^5.1.1",
     "eventemitter2": "^5.0.1",
