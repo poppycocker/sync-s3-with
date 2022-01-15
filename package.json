@@ -13,7 +13,7 @@
     "@types/eventemitter2": "^4.1.0",
     "@types/node": "^12.12.3",
     "@types/shelljs": "^0.8.6",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4"
   },
